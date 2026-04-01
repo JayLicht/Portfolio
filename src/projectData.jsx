@@ -2,6 +2,64 @@
 
 export const projectData = [
   {
+  id: 1,
+  // Core
+  title: 'CyberDmapCommandAndControlPlatform',
+  role: 'UI/UX Specialist',
+  year: '2025',
+  status: 'Complete',
+  websiteLink: null,
+  managementStyle: 'Agile / Iterative',
+  // Project Type
+  projectType: 'Desktop Application / Dashboard',
+  // Tags
+  tagList: ['UI / UX', 'Cyber Defence', 'Data Visualization', 'Real-Time Systems'],
+  // Software Icons
+  softwareTitle: ["Figma"],
+  softwareList: ["material-icon-theme:figma"],
+  // Images
+  image: [
+      `hero.webp`,
+      `image-1.webp`,
+      `image-2.webp`,
+      `image-3.webp`,
+      `image-4.webp`,
+      `image-5.webp`,
+      `image-6.webp`,
+      `image-7-wireframe.webp`,
+      `image-8-wireframe.webp`,
+  ],
+  overview: 'Developed during a focused two-week intensive, the Cyber OMAP Co-Pilot represents a comprehensive cyber operations management platform that combines real-time threat monitoring, strategic planning, and AI-assisted decision-making for Defence Cyber Command. The platform integrates multiple operational views including a global threat map, live threat feeds, facility digital twins, and detailed asset tracking - all designed to accelerate both the cyber planning and execution cycles. Built using Data#3\'s AI Prototyping Framework concept, the system provides commanders with holistic base health monitoring, operational timeline tracking, and mission version control in a unified, military-grade interface.',
+  processTextList: [
+    // Goals
+    "Create an integrated platform that accelerates cyber planning and execution cycles for Defence Cyber Command, combining real-time threat intelligence with strategic operational planning and AI-driven prioritization to enable faster, more informed decision-making across the entire cyber operations lifecycle.",
+    // Challenge
+    "Cyber operations require commanders to synthesize information from dozens of disparate sources - threat feeds, asset statuses, team readiness, facility health, mission timelines - while maintaining operational security and making rapid decisions under pressure. The challenge was consolidating this information overload into a single coherent interface that provides both strategic overview and tactical detail without cognitive overwhelm.",
+    // Process
+    "The development followed an iterative agile approach over two weeks, beginning with core operational dashboards and progressively layering in specialized views. Each component was designed independently then integrated into the unified command and control interface, with continuous refinement based on operational scenarios from Operation Luzon Strait as the reference case.",
+    // Research
+    "Analysis of existing military command systems, cyber operations centers (SOCs), and threat intelligence platforms revealed common pain points: information silos, delayed threat response, lack of integrated planning tools, and poor visibility into team/asset status. This informed the decision to build a holistic platform rather than point solutions.",
+    // Solution
+    "A modular dashboard architecture with six core operational views: (1) Global threat map with real-time attack vectors, (2) Location-specific facility health monitoring, (3) Live threat feed with auto-categorization, (4) 3D digital twin for spatial awareness, (5) Comprehensive 28-day operation timeline, and (6) Asset status tracking across malware, tools, infrastructure, and C2 channels. Each view optimized for 1338x880px displays common in operations centers.",
+    // Design System
+    "Established a military-grade cyberpunk aesthetic using a constrained palette: cyber green (#00ff00) for active/operational states, red (#ff0040) for critical threats, orange (#ff8800) for high priority, yellow (#ffaa00) for warnings, and blue (#4a90a4) for informational content - all on dark navy backgrounds (#0a0e1a, #0d1520) to reduce eye strain during extended operations. Courier New monospace typography reinforces the tactical computing aesthetic.",
+    // Key Features
+    "Real-time threat monitoring with AI-recommended operation prioritization, 3D interactive facility visualization showing room-level activity, comprehensive asset health tracking (23 assets across malware, tools, C2 infrastructure), complete mission timeline from reconnaissance through cleanup phases, version control for operational planning iterations, and automated threat feed generation with realistic APT group TTPs and IOCs.",
+    // Development Process
+    "Built entirely with vanilla HTML/CSS/JavaScript to ensure rapid prototyping and easy integration with existing Defence systems. No external dependencies beyond CDN-hosted libraries for specific visualizations. Each dashboard component developed as a standalone page for modularity, with consistent design system and navigation patterns. Extensive use of CSS animations and JavaScript for real-time data simulation and interactive elements."
+  ],
+  // Colour palette
+  gradientColour: "linear-gradient(180deg, rgba(0,255,0,1) 0%, rgba(26,58,74,1) 100%)",
+  colours: [
+    "#238E89", // Cyber Green - Operational
+    "#B31D25", // Critical Red
+    "#FF8B43", // High Orange  
+    "#FFCD43", // Warning Yellow
+    "#203043", // Info Blue
+    "#B8C4CF", // Deep Navy Background
+    "#0F141B", // Border/Accent
+  ]
+},{
     id: 0,
     // Core
     title: 'RadiantChiropracticCare',
